@@ -1,0 +1,60 @@
+{
+  "testsiteurl":"https://www.credify.tech/",
+  "locators": {
+    "homepage": {
+      "loanAmount": "loan-amount",
+      "selectLoanPurpose": "loan-purpose-select",
+      "checkYourRateButton": "Check your rate",
+      "loginButtonClick" : "//a[@class = 'header-nav-menu__btn']"
+    },
+    "personalInformationPage": {
+      "firstName": "borrowerFirstName",
+      "lastName": "borrowerLastName",
+      "homeAddress" : "borrowerStreet",
+      "cityName" : "borrowerCity",
+      "state" : "borrowerState",
+      "zipCode" : "borrowerZipCode",
+      "dateOfBirth" : "borrowerDateOfBirth",
+      "individualIncome" : "borrowerIncome",
+      "additionalIncome" : "borrowerAdditionalIncome",
+      "emailAddress" : "username",
+      "passWord" : "password",
+      "termsCheckBox" : ".sc-kPVwWT.sc-kfGgVZ.ghCrQD",
+      "checkYourRateButton" : "//*[contains(text(),'Check Your Rate ')]"
+
+    },
+    "offerpage": {
+      "userLoanAmount": "//span[@data-auto = 'userLoanAmount']",
+      "monthlyPayment": "//span[@data-auto = 'defaultMonthlyPayment']",
+      "menu": "(//*[contains(text(),'Menu')])[1]",
+      "APR": "//div[@data-auto = 'defaultMoreInfoAPR']",
+      "loanTerm": "//div[@data-auto = 'defaultLoanTerm']"
+
+    },
+    "loginPage": {
+      "userName": "username",
+      "password": "password",
+      "signInButton": "Sign in to your account"
+    }
+  },
+  "testdata":{
+    "homepage": {
+      "loanAmount": "2000",
+      "loanPurpose": "BUSINESS"
+    },
+    "personalInformationPage": {
+      "firstName": "Saurav",
+      "lastName": "Goyal",
+      "homeAddress" : "Tower Street",
+      "cityName" : "Fergus",
+      "state" : "PA",
+      "zipCode" : "123456",
+      "dateOfBirth" : "01011987 ",
+      "individualIncome" : "100000",
+      "additionalIncome" : "5000",
+      "passWord" : "AB123456cd"
+    },
+    "loginPage": {
+    }
+  }
+}

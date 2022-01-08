@@ -1,5 +1,5 @@
 var data_Object = require('../dataJson/or_data');
-
+//changes from sultan
 var LoginPage = function(){
 
     this.EnterText = function(locator , value){

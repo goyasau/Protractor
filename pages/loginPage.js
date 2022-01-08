@@ -1,5 +1,6 @@
 var data_Object = require('../dataJson/or_data');
 
+//hiu how r u
 var LoginPage = function(){
 
     this.EnterText = function(locator , value){

@@ -2,6 +2,7 @@ var data_Object = require('../dataJson/or_data');
 var select_Wrapper = require('../utils/selectWrapper');
 var select_Loan_Purpose = new select_Wrapper(by.id(data_Object.locators.homepage.selectLoanPurpose));
 
+// Duummy changes
 var homePage = function(){
 
     this.enteringLoanRequirementDetails = function(amount , selectPurpose){

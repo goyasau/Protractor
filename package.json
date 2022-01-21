@@ -10,7 +10,7 @@
   "devDependencies": {
     "jasmine-allure-reporter": "1.0.2",
     "jasmine-expect": "4.0.2",
-    "log4js": "4.3.2",
+    "log4js": "6.4.0",
     "protractor": "5.4.2",
     "selenium-webdriver": "4.0.0-alpha.4",
     "winston": "2.*",

@@ -15,7 +15,7 @@
     "selenium-webdriver": "4.0.0-alpha.4",
     "winston": "2.*",
     "allure-commandline": "2.9.0",
-    "jasmine-reporters": "2.3.2"
+    "jasmine-reporters": "2.5.0"
   },
   "dependencies": {
     "chai": "^4.2.0",
